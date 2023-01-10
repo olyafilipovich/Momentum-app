@@ -1,4 +1,6 @@
 ## Momentum-app
+![image](https://user-images.githubusercontent.com/102916168/211636330-6dce2252-4c79-4506-ba35-39c6709181a8.png)
+
 [посмотреть можно здесь](https://olyafilipovich.github.io/Momentum-app/)
 - Приложение показывает время и имя пользователя. 
 - Фоновое изображение и приветствие меняются в зависимости от времени суток.
