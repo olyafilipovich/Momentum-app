@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" src="css/owfont-regular.css" />
+  <link rel="stylesheet" src="css/style.css" />
+  
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <audio src="./assets/Aqua Caelestis.mp3" ></audio>
+      <div class="name-song">Aqua Caelestis</div>
+      <div class="container_progress">
+        <div class="player-controls">
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+        </div>
+        <div class="progress-bar">
+          <div class="bar-color"></div>
+        </div>
+        <div class="song-time">
+          <div class="current">0:00</div>
+          <div class="divider">/</div>
+          <div class="length"></div>
+        </div>
+        <div class="volume_container">
+          <button class="volume-img player-icon"></button>
+          <div class="volume-bar">
+            <div class="volume-color-bar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="ul_container">
+        <div class="play-row-small"></div>
+        <ul class="play-list"></ul>
+    </div>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <div class="temperature"></div>
+        <div class="weather-description"></div>
+        </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" id = "enter" class="name" placeholder="[Enter name]"/>
+    </div>
+    
+    <div class="settings_block off">
+      <div class="settings-item">
+        <div class="settings-title ln">Language</div>
+        <button class="language">EN</button>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title gr">Greetings</div>
+        <div class="switch-btn-gr switch-on"></div>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title dt">Date</div>
+        <div class="switch-btn-dt switch-on"></div>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title tm">Time</div>
+        <div class="switch-btn-tm switch-on"></div>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title wr">Weather</div>
+        <div class="switch-btn-wr switch-on"></div>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title qu">Quotes</div>
+        <div class="switch-btn-qu switch-on"></div>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title ap">Audioplayer</div>
+        <div class="switch-btn-ap switch-on"></div>
+      </div>
+      <div class="settings-item">
+        <div class="settings-title ph">Photo Source</div>
+        <div class="setting-text"><a href="https://github.com/olyafilipovich/stage1-tasks/tree/assets" class="setting-link" target="_blank">GitHub</a></div>
+      </div>
+      </div>
+    </div>
+
+
+  </main>
+  
+  <footer class="footer">
+    <div class="settings-icon"></div>
+    <div class="quotes">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+  </div>
+    <div class="container">
+      <ul class="footer-list">
+        <li class="footer-item"><a href="https://github.com/olyafilipovich" class="footer-link" target="_blank">GitHub</a></li>
+        <li class="footer-item"><a href="https://rs.school/js/" class="footer-link" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="logo" height="24"></a></li>
+        <li class="footer-item"><span>2022</span></li>
+    </ul>
+    </div>
+  </footer>
+  
+    <script type="module" href="script.js"></script>
+</body>
+</html>
